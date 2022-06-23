@@ -6,6 +6,7 @@
 
 .container {
     width: var(--default-layout-width);
+    max-width: calc(100% - var(--spacing-layout));
     display: flex;
 }
 

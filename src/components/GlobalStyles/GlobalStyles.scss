@@ -6,6 +6,9 @@
     // Default layout
     --default-layout-height: 60px;
     --default-layout-width: 1150px;
+    --spacing-layout: 32px;
+    --black: #000;
+    --text-color: #333;
 }
 
 * {
@@ -23,4 +26,17 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
+    color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
 }
